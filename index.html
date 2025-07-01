@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Roshan Vinnarasu" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Roshan Vinnarasu">Roshan Vinnarasu</h1>
+          <p class="title">Business Analyst | Data Analyst</p>
+          <div style="margin-top: 1rem;">
+            <a href="https://drive.google.com/file/d/1JV43gpFERFthpfrGim0MQYe1SFdQM_nM/view?usp=sharing" class="form-btn" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1.2rem;font-size:1rem;text-decoration:none;" target="_blank" rel="noopener">
+              <ion-icon name="eye-outline"></ion-icon>
+              <span>View Resume</span>
+            </a>
+          </div>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:roshan.dvrk@gmail.com" class="contact-link">roshan.dvrk@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Contact No</p>
+              <a href="tel:+919994086564" class="contact-link">+91 99940 86564</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Tamil Nadu, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/roshanvinnarasu" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/roshan-v-222094233/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <!-- Add your portfolio link below if available -->
+          <!--
+          <li class="social-item">
+            <a href="YOUR_PORTFOLIO_LINK" class="social-link" target="_blank">
+              <ion-icon name="globe-outline"></ion-icon>
+            </a>
+          </li>
+          -->
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+      <!-- <li class="navbar-item">
+        <button class="navbar-link" data-nav-link>Blog</button>
+      </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Results-driven Business Analyst and Data Analyst with 1.5+ years of experience transforming complex business requirements into data-driven solutions for enterprise clients. Skilled in stakeholder management, process optimization, and advanced analytics using Power BI, Python, and SQL. Proven track record of delivering strategic insights that improve operational efficiency by 25-40% and support C-level decision-making across diverse industries.
+          </p>
+          <p>
+            My expertise includes requirements elicitation, process mapping, dashboard development, and leveraging emerging technologies such as Generative AI and Machine Learning. I am passionate about using data to drive business value and help organizations make informed, impactful decisions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Business Analysis icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Business Analysis</h4>
+                <p class="service-item-text">
+                  Transforming business requirements into actionable insights and process improvements for enterprise clients.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Data Analytics icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics & Visualization</h4>
+                <p class="service-item-text">
+                  Building advanced dashboards and reports using Power BI, Python, and SQL to drive data-driven decision making.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Project Management icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Project Management</h4>
+                <p class="service-item-text">
+                  Leading cross-functional teams and managing projects using Agile/Scrum methodologies for timely delivery.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="AI & Automation icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Automation</h4>
+                <p class="service-item-text">
+                  Leveraging Generative AI, LLMs, and automation to optimize business processes and deliver innovative solutions.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Arockia Raja" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Arockia Raja</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   Roshan developed an intelligent Tally chatbot that transformed our daily operations. The bot instantly resolves complex Tally ERP queries that previously required extensive manual research. Our team's productivity increased by 70% as routine questions now get answered in under 2 minutes instead of 30-45 minutes. His deep understanding of accounting workflows and AI implementation delivered a solution that truly understands our business needs.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <!-- Other testimonials are hidden for now -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Arockia Raja" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Arockia Raja</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Roshan developed an intelligent Tally chatbot that transformed our daily operations. The bot instantly resolves complex Tally ERP queries that previously required extensive manual research. Our team's productivity increased by 70% as routine questions now get answered in under 2 minutes instead of 30-45 minutes. His deep understanding of accounting workflows and AI implementation delivered a solution that truly understands our business needs.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">Honors & Leadership</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg" alt="Top 50 Data Analyst Expert icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Top 50 Data Analyst Expert</h4>
+                <p class="service-item-text">
+                  Featured on Topmate.io’s prestigious expert list (2024)
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Competitive Excellence icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Competitive Excellence</h4>
+                <p class="service-item-text">
+                  Achieved Rank 5,913 out of 100,000 participants in Prepinsta National Competition (2024)
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Academic Excellence icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Academic Excellence</h4>
+                <p class="service-item-text">
+                  Consistently maintained 9.0+ CGPA throughout master’s program
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">The American College, Tamil Nadu, India</h4>
+              <span>June 2021 – May 2023</span>
+              <p class="timeline-text">
+                M.Sc. in Data Science (Specialization: Data Science & Machine Learning), GPA: 9.0/10<br>
+                Relevant Coursework: Data/Business Analysis, Machine Learning, AI, Big Data
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Business Analyst, Metafic</h4>
+              <span>Jan 2024 – Jan 2025</span>
+              <p class="timeline-text">
+                • Engineered data-driven analytics solutions, improving project planning efficiency by 30% across 5 business units.<br>
+                • Led stakeholder workshops with C-suite and technical teams, enhancing operational efficiency by 35%.<br>
+                • Developed Power BI dashboards and automated reporting, reducing manual reporting time by 60%.<br>
+                • Facilitated strategic alignment between product, development, and UX teams, achieving 95% on-time delivery and 25% reduction in rework.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Business Analyst Intern, Natur Tec</h4>
+              <span>Jan 2023 – May 2023</span>
+              <p class="timeline-text">
+                • Designed dynamic Sales, Collections, and Expenses Analysis Dashboard for Tally ERP data.<br>
+                • Built advanced “Budget vs. Actual” tracking system, improving forecasting accuracy by 40%.<br>
+                • Enhanced Power BI report performance by 50% through query optimization and data modeling.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Business Analysis</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analytics (Power BI, SQL, Python)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Project Management (Agile/Scrum)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Emerging Technologies (AI, ML, Automation)</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Business Analysis</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Analytics</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>AI & Automation</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Business Analysis</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Analytics</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>AI & Automation</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <!-- Business Analysis Projects -->
+            <li class="project-item active" data-filter-item data-category="business analysis">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Climate Risk Management Platform" loading="lazy">
+                </figure>
+                <h3 class="project-title">Climate Risk Management Platform</h3>
+                <p class="project-category">Business Analysis</p>
+                <p class="project-description">
+                  Led business analysis for an enterprise climate risk assessment platform targeting Fortune 500 companies. Developed a data-driven solution framework to identify climate change impacts and risk mitigation strategies, supporting ESG compliance for 10,000+ businesses.
+                </p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="business analysis">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="AI-Powered Tender Review Automation" loading="lazy">
+                </figure>
+                <h3 class="project-title">AI-Powered Tender Review Automation</h3>
+                <p class="project-category">Business Analysis</p>
+                <p class="project-description">
+                  Architected an intelligent document processing solution for public procurement tender analysis. Automated review system reduced manual processing time by 75% and improved compliance analysis accuracy for government and enterprise clients.
+                </p>
+              </a>
+            </li>
+            <!-- Data Analytics Projects -->
+            <li class="project-item active" data-filter-item data-category="data analytics">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="Sales, Collections & Expenses Dashboard" loading="lazy">
+                </figure>
+                <h3 class="project-title">Sales, Collections & Expenses Dashboard</h3>
+                <p class="project-category">Data Analytics</p>
+                <p class="project-description">
+                  Designed a dynamic dashboard for Tally ERP data, enabling management to track key financial metrics and identify revenue trends for 100+ stakeholders, processing 50L+ monthly.
+                </p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="data analytics">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="Budget vs. Actual Tracking System" loading="lazy">
+                </figure>
+                <h3 class="project-title">Budget vs. Actual Tracking System</h3>
+                <p class="project-category">Data Analytics</p>
+                <p class="project-description">
+                  Built an advanced tracking system using DAX and Power Query, improving financial forecasting accuracy by 40% and enabling proactive budget management for leadership.
+                </p>
+              </a>
+            </li>
+            <!-- AI & Automation Projects -->
+            <li class="project-item active" data-filter-item data-category="ai & automation">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="Power BI Automation & Optimization" loading="lazy">
+                </figure>
+                <h3 class="project-title">Power BI Automation & Optimization</h3>
+                <p class="project-category">AI & Automation</p>
+                <p class="project-description">
+                  Enhanced Power BI report performance by 50% through query optimization and data modeling, streamlining reporting for 100+ stakeholders.
+                </p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="ai & automation">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="Generative AI & LLMs for Business" loading="lazy">
+                </figure>
+                <h3 class="project-title">Generative AI & LLMs for Business</h3>
+                <p class="project-category">AI & Automation</p>
+                <p class="project-description">
+                  Leveraged Generative AI and Large Language Models to automate business processes and deliver innovative solutions for enterprise clients.
+                </p>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!--
+      <article class="blog" data-page="blog">
+        ...blog section hidden...
+      </article>
+      -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
