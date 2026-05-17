@@ -1,0 +1,84 @@
+Sivagangai, Tamil Nadu, India  | +91-9994086564| roshan.ddv@gmail.com
+ Linkedin Profile | Github Profile | Portfolio : https://roshan-v-portfolio.vercel.app/
+Profile Summary: 
+Results-driven Business Analyst with 2.5+ years of experience translating complex business requirements into data-driven
+solutions across enterprise and digital product environments. Skilled in stakeholder management, requirement
+elicitation, Power BI dashboard development, and AI-powered process automation. Demonstrates consistent track
+record of improving operational efficiency, reducing reporting overhead, and supporting data-informed C-level decision-
+making. Actively embraces emerging technologies including Generative AI and LLMs to elevate analytical workflows.
+WORK EXPERIENCE
+Jr.Business Analyst- Metafic, Bangalore (Full-time) - January 2024 - January 2025
+Responsibilities:
+Developed Power BI dashboards and automated reporting systems, reducing reporting effort by 60%.
+Conducted gap analysis and workflow optimization, improving operational efficiency by 35%.
+Facilitated stakeholder workshops to gather business requirements and define project deliverables.
+Streamlined Agile project coordination, improving delivery timelines and reducing rework.
+Business Analyst - Pixel Web Solutions, Madurai (Full-time) - August 2025 - Present
+Responsibilities:
+Automated Power BI reporting using DAX, SQL, and Power Query, reducing manual effort by 45%.
+Led requirement gathering sessions and created BRDs, FRDs, and user stories for client projects.
+Optimized workflows through root cause analysis, improving operational efficiency by 25%.
+Accelerated documentation and reporting workflows using AI tools, reducing turnaround time by 50%.
+Coordinated Agile sprint activities with development, QA, and design teams.
+Roshan Vinnarasu
+SKILLS 
+Business Analysis: Requirements Elicitation, Process Mapping, Gap Analysis, Stakeholder Management, Risk Assessment,
+User Stories, BRD / FRD Writing
+Data Analytics: Power BI (DAX, Power Query), SQL, Python, Excel, Statistical Analysis, Dashboard Development
+Project & Delivery: Agile / Scrum, Clickup, Cross-functional Collaboration, Change Management, Documentation.
+Cloud Technologies: AWS, Azure.
+Emerging Technologies: Generative AI, LLMs, AI Agents, Automation, Machine Learning(Basic).
+PROFESSIONAL PROJECTS
+Pixel Web Solutions | Firefox.VIP | Firefox Mini-App | Telegram Bot
+Worked on a multi-module crypto trading ecosystem supporting Spot, Futures, and Swap trading using various tech  
+stack. Managed business requirement gathering, workflow planning, and feature documentation for trading dashboards,
+affiliate modules, Telegram bot integration, Tatum wallet integration, KYT (Know Your Transaction) compliance workflows,
+KYC onboarding, 2FA authentication, and multi-chain (ERC-20, BEP-20, TRC-20) deposit/withdrawal systems while
+coordinating with development, QA, and UI/UX teams in Agile sprint environments.
+Business Analyst Intern - Natur Tec, Chennai(Full-time) - January 2023 - May 2023
+Responsibilities:
+Built Power BI dashboards for sales and financial reporting using Tally ERP data.
+Developed Budget vs Actual reporting using DAX and Power Query for forecasting analysis.
+Optimized Power BI data models and queries, improving dashboard performance by 50%.
+COURSES & CERTIFICATIONS
+Microsoft Certified: Power BI Data Analyst Associate (PL-300) (Pursuing)
+Google Data Analytics Professional Certificate
+Google Cloud — Multimodality & Multimodal RAG
+Cutshort Certified Python — Advanced
+IIBA ECBA (Business Analysis Fundamentals) (Optional Future Add)
+EDUCATIONAL BACKGROUND
+Post Graduation - Master of Science ( M.Sc Data Science) (Specialization: Data & Business Intelligence)
+Under Graduation - Bachelor of Science ( B.Sc Physics ) 
+St.Joseph’s College, Trichy, TN | CGPA - 8.0 / 10
+The American college, Madurai, TN | CGPA - 9.0 / 10
+2021 - 2023
+2018 - 2021
+ACHIEVEMENTS
+Featured among the Top 50 Data Analyst Experts  on Topmate.io for expertise in data analytics, reporting, and business
+intelligence solutions.
+Ranked among the Top 6% participants  in PrepInsta National Hiring Competition, demonstrating strong analytical and
+problem-solving capabilities among 100,000+ participants .
+Achieved and consistently maintained a 9.0 CGPA  in M.Sc. Data Science, reflecting strong academic performance in
+analytics, machine learning, and business intelligence domains.
+AI-Powered Tender Review Automation | Metafic
+Worked on an AI-powered tender review and intelligent document processing platform using Python, AI automation
+workflows, OCR-based document analysis, and reporting frameworks for public procurement analysis. Designed business
+workflows, requirement documentation, and automated review processes that reduced manual processing effort by 75%
+and improved compliance analysis accuracy for government and enterprise clients.
+Climate Risk Management Platform | Metafic
+Led business analysis for an enterprise climate risk assessment platform targeting Fortune 500 companies using Power
+BI, SQL, Python, and ESG reporting frameworks. Prepared stakeholder documentation, process workflows, and reporting
+structures to identify climate risk impacts, support mitigation strategies, and streamline ESG compliance analysis while
+collaborating with cross-functional teams in Agile development environments.
+Pixel Web Solutions | Zayro | Web & Mobile Application
+Worked on a multi-module crypto trading platform supporting Spot and Futures trading workflows using real-time trading
+architecture. Prepared BRDs, user stories, and workflow documentation for trading modules, wallet systems, KYC
+onboarding, transaction management, order processing, portfolio tracking, gamified multi-level referral systems, and
+dedicated affiliate program workflows, including multi-chain deposit/withdrawal features, while coordinating Agile sprint
+execution and cross-functional collaboration between development, QA, and UI/UX teams to streamline feature delivery.
+Pixel Web Solutions | BNQ Corp ICO Platform | Web Application
+Worked on an ICO-based crypto fundraising platform using React.js, Next.js, Bootstrap, REST APIs, and blockchain-
+integrated workflows. Prepared BRDs, user stories, and process documentation for token sale management, investor
+onboarding, KYC verification, vesting schedules, token allocation, smart contract interactions, wallet integration,
+transaction tracking, and multi-chain payment workflows while coordinating Agile sprint execution with development, QA,
+and UI/UX teams to streamline platform delivery and investor operations.
